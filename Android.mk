@@ -14,7 +14,7 @@
 # limitations under the License.
 #
 
-ifneq ($(filter shooterk shooter shooteru shootervm pyramid holiday ruby doubleshot,$(TARGET_DEVICE)),)
+ifneq ($(filter shooter shooterk shooteru shootervm pyramid holiday ruby doubleshot,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
